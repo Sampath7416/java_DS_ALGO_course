@@ -1,0 +1,29 @@
+/******************************************************************************
+prints 5 to 10
+*******************************************************************************/
+
+public class Main
+{
+	static void recu_code(int n)
+         {   
+            
+             if(n==4)
+             {
+                 return;
+             }
+             else{
+               
+                 recu_code(n-1);
+               
+                  System.out.println(n);
+                 
+             }
+             
+         }
+         
+     public static void main(String []args){
+         int n=10;
+      recu_code(n);
+     }
+}
+//https://www.onlinegdb.com/online_java_debugger#tab-stdin
